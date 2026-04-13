@@ -129,13 +129,6 @@ python-dotenv
 - Temporary video files are automatically deleted after analysis
 
 
-
-##  License
-
-This project is licensed under the [MIT License](LICENSE).
-
-
-
 ##  Acknowledgements
 
 - [Google Gemini API](https://ai.google.dev/)
