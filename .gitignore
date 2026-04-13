@@ -1,0 +1,99 @@
+# ================================
+# Environment & Secrets
+# ================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ================================
+# Virtual Environments
+# ================================
+venv/
+.venv/
+env/
+ENV/
+.Python
+pyvenv.cfg
+
+# ================================
+# Streamlit
+# ================================
+.streamlit/secrets.toml
+
+# ================================
+# Uploaded / Temp Video Files
+# ================================
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+/tmp/
+temp/
+uploads/
+
+# ================================
+# IDEs & Editors
+# ================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ================================
+# OS Files
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ================================
+# Logs
+# ================================
+*.log
+logs/
+log/
+
+# ================================
+# Jupyter Notebooks (if any)
+# ================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ================================
+# Testing & Coverage
+# ================================
+.pytest_cache/
+.coverage
+htmlcov/
